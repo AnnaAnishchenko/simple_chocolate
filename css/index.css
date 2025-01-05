@@ -1,0 +1,306 @@
+/* defolt style */
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #111111;
+  background: #fafafa;
+}
+.text-italic {
+  font-style: italic;
+}
+.text-color {
+  color: #fd9222;
+}
+/* -------------------- HEADER -- */
+.page-header {
+}
+.page-nav {
+}
+.page-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.menu {
+}
+.menu-item {
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #fd9222;
+}
+/*  -------------------- HERO --*/
+.hero {
+  width: 1200px;
+  height: 600px;
+  border-radius: 30px;
+  background: #1e1823;
+}
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.hero-button {
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 144px;
+  height: 45px;
+  background: #fd9222;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background: #fcf1e0;
+  color: #fd9222;
+}
+.hero-link {
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 183px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+}
+.hero-link:hover,
+.hero-link:focus {
+  border: #fd9222;
+  color: #fd9222;
+}
+.hero-link-scloll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.hero-link-scloll:hover,
+.hero-link-scloll:focus {
+  color: #fd9222;
+}
+/*  -------------------- BENEFITS --*/
+.benefits {
+  width: 1200px;
+  height: 260px;
+  background: #1e1823;
+}
+.benefits-title {
+  color: #ffffff;
+  display: none;
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-name {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.benefits-description {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+/*  -------------------- Ingredients --*/
+.ingredients {
+}
+.ingredients-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ingredients-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.ingredients-list {
+}
+.ingredients-item {
+  border: 1px solid #fd9222;
+  border-radius: 15px;
+  width: 270px;
+  height: 270px;
+}
+.ingredients-item-color {
+  background: #fd9222;
+  border: none;
+}
+.ingredients-item-darkcolor {
+  border: none;
+  background: #1e1823;
+}
+.ingredients-img {
+}
+.ingredients-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.ingredients-link-name-color {
+  color: #ffffff;
+}
+/*  -------------------- How it's made --*/
+.made {
+}
+.made-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.made-image {
+}
+.made-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.made-list {
+}
+.made-item {
+}
+
+.made-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+/*  -------------------- Reviews --*/
+.review {
+}
+.review-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.review-list {
+}
+.review-item {
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  width: 360px;
+  height: 200px;
+  box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
+  background: #fff;
+}
+.review-image {
+}
+.review-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+}
+.review-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+.review-button {
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 222px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.review-button:hover,
+.review-button:focus {
+  background: #fd9222;
+  color: #ffffff;
+}
+/*  -------------------- Footer --*/
+.footer-page {
+  width: 1200px;
+  height: 298px;
+  background: #1e1823;
+}
+.footer-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.footer-adress {
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  color: #ffffff;
+}
+.adress-name {
+  font-weight: 500;
+}
+.adress-item {
+}
+.adress-link {
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: #fd9222;
+}
+.footer-nav {
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: #fd9222;
+}
